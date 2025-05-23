@@ -18,7 +18,11 @@ This is a responsive, pixel-perfect ReactJS implementation of the PopX mobile on
 👉 https://pop-x-app-ivory.vercel.app/
 
 ## 📁 Folder Structure
-<pre> ``` src/ ├── pages/ │ ├── Welcome.js │ ├── Signup.js │ ├── Login.js │ └── Account.js ├── App.js ├── index.js └── App.css ``` </pre>
+<pre> 
+``` 
+src/ ├── pages/ │ ├── Welcome.js │ ├── Signup.js │ ├── Login.js │ └── Account.js ├── App.js ├── index.js └── App.css 
+``` 
+</pre>
 
 ## 📝 Features
 
