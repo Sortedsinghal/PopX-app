@@ -1,4 +1,4 @@
-// src/pages/Account.js
+
 import React, { useEffect, useState } from 'react';
 import './Account.css';
 
