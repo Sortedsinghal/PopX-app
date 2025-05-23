@@ -1,0 +1,104 @@
+.account-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    height: 100vh;
+    padding: 0 16px;
+  }
+  
+  .account-card {
+    width: 100%;
+    max-width: 460px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    min-height: 10px;
+    justify-content: space-between;
+  }
+  
+  
+  .account-topbar {
+    background-color: #f5f5f5;
+    padding: 16px 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .account-topbar h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: #1a1a1a;
+  }
+  
+  .account-content {
+    padding: 20px;
+    padding-bottom: 400px; 
+  }
+  
+  
+  .account-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+  
+  .profile-img-wrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .camera-icon {
+    position: absolute;
+    bottom: 0;
+    right: -6px;
+    width: 20px;
+    height: 20px;
+    background-color: #a259ff;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+  }
+  
+  .profile-details h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .profile-details .email {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+  }
+  
+  .bio-text {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  .dashed-divider {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin: 16px 0;
+  }
+  
